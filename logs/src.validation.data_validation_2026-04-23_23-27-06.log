@@ -1,0 +1,9 @@
+[2026-04-23 23:27:31,386] [INFO] [src.validation.data_validation] : DataValidation initialized
+[2026-04-23 23:27:31,386] [INFO] [src.validation.data_validation] : Starting data validation
+[2026-04-23 23:27:31,500] [WARNING] [src.validation.data_validation] : Extra columns: ['customerID', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod']
+[2026-04-23 23:27:31,500] [INFO] [src.validation.data_validation] : Schema validation passed
+[2026-04-23 23:27:31,500] [INFO] [src.validation.data_validation] : Missing value check completed
+[2026-04-23 23:27:31,517] [INFO] [src.validation.data_validation] : Missing value check completed
+[2026-04-23 23:27:31,530] [INFO] [src.validation.data_validation] : Data drift detection completed
+[2026-04-23 23:27:31,552] [INFO] [src.validation.data_validation] : Validation report saved at artifacts/validation_report.json
+[2026-04-23 23:27:31,554] [INFO] [src.validation.data_validation] : Data validation completed successfully

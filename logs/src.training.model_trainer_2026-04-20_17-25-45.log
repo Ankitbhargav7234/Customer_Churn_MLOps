@@ -1,0 +1,4 @@
+[2026-04-20 17:25:46,634] [INFO] [src.training.model_trainer] : ModelTrainer initialized with MLflow
+[2026-04-20 17:25:46,634] [INFO] [src.training.model_trainer] : Starting model training
+[2026-04-20 17:25:46,634] [INFO] [src.training.model_trainer] : Training model: logistic_regression
+[2026-04-20 17:30:27,341] [ERROR] [src.training.model_trainer] : Model training failed

@@ -1,0 +1,5 @@
+[2026-04-23 23:07:28,677] [INFO] [src.evaluation.model_evaluation] : ModelEvaluation initialized
+[2026-04-23 23:07:28,683] [INFO] [src.evaluation.model_evaluation] : Starting model evaluation pipeline
+[2026-04-23 23:07:28,728] [INFO] [src.evaluation.model_evaluation] : Model loaded successfully
+[2026-04-23 23:07:28,728] [INFO] [src.evaluation.model_evaluation] : Evaluating model
+[2026-04-23 23:07:28,820] [ERROR] [src.evaluation.model_evaluation] : Model evaluation failed

@@ -1,0 +1,75 @@
+{
+    "schema_valid": true,
+    "missing_values_train": {
+        "customerID": 0,
+        "gender": 0,
+        "SeniorCitizen": 0,
+        "Partner": 0,
+        "Dependents": 0,
+        "tenure": 0,
+        "PhoneService": 0,
+        "MultipleLines": 0,
+        "InternetService": 0,
+        "OnlineSecurity": 0,
+        "OnlineBackup": 0,
+        "DeviceProtection": 0,
+        "TechSupport": 0,
+        "StreamingTV": 0,
+        "StreamingMovies": 0,
+        "Contract": 0,
+        "PaperlessBilling": 0,
+        "PaymentMethod": 0,
+        "MonthlyCharges": 0,
+        "TotalCharges": 0,
+        "Churn": 0
+    },
+    "missing_values_test": {
+        "customerID": 0,
+        "gender": 0,
+        "SeniorCitizen": 0,
+        "Partner": 0,
+        "Dependents": 0,
+        "tenure": 0,
+        "PhoneService": 0,
+        "MultipleLines": 0,
+        "InternetService": 0,
+        "OnlineSecurity": 0,
+        "OnlineBackup": 0,
+        "DeviceProtection": 0,
+        "TechSupport": 0,
+        "StreamingTV": 0,
+        "StreamingMovies": 0,
+        "Contract": 0,
+        "PaperlessBilling": 0,
+        "PaymentMethod": 0,
+        "MonthlyCharges": 0,
+        "TotalCharges": 0,
+        "Churn": 0
+    },
+    "drift_report": {
+        "SeniorCitizen": {
+            "base_mean": 0.16080937167199147,
+            "current_mean": 0.16749467707594037,
+            "drift": 0.006685305403948905,
+            "is_drifted": 0
+        },
+        "tenure": {
+            "base_mean": 32.373091941782036,
+            "current_mean": 32.36337828246984,
+            "drift": 0.009713659312197365,
+            "is_drifted": 0
+        },
+        "MonthlyCharges": {
+            "base_mean": 64.86425275115373,
+            "current_mean": 64.35159687721789,
+            "drift": 0.5126558739358416,
+            "is_drifted": 1
+        },
+        "Churn": {
+            "base_mean": 0.2655307064252751,
+            "current_mean": 0.26472675656493966,
+            "drift": 0.00080394986033544,
+            "is_drifted": 0
+        }
+    }
+}

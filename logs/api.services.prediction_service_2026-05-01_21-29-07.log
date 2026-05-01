@@ -1,0 +1,3 @@
+[2026-05-01 21:29:07,289] [INFO] [api.services.prediction_service] : Initializing PredictionService
+[2026-05-01 21:30:30,546] [INFO] [api.services.prediction_service] : Making prediction
+[2026-05-01 21:30:30,586] [INFO] [api.services.prediction_service] : Preprocessing input data

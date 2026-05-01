@@ -1,0 +1,4 @@
+[2026-04-20 23:45:16,856] [INFO] [src.training.model_trainer] : ModelTrainer initialized with MLflow
+[2026-04-20 23:45:16,856] [INFO] [src.training.model_trainer] : Starting model training
+[2026-04-20 23:45:16,858] [INFO] [src.training.model_trainer] : Training model: logistic_regression
+[2026-04-20 23:47:54,697] [INFO] [src.training.model_trainer] : logistic_regression | C=0.1 | ROC-AUC=0.8611940646122951

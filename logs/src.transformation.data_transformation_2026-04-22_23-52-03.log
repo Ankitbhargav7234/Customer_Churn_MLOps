@@ -1,0 +1,10 @@
+[2026-04-22 23:53:35,585] [INFO] [src.transformation.data_transformation] : DataTransformation initialized
+[2026-04-22 23:53:35,587] [INFO] [src.transformation.data_transformation] : Starting data transformation
+[2026-04-22 23:53:35,817] [INFO] [src.transformation.data_transformation] : Creating preprocessing pipeline
+[2026-04-22 23:53:35,882] [INFO] [src.transformation.data_transformation] : Preprocessing pipeline created successfully
+[2026-04-22 23:53:35,885] [INFO] [src.transformation.data_transformation] : Fitting and transforming training data
+[2026-04-22 23:53:36,088] [INFO] [src.transformation.data_transformation] : Training data transformed
+[2026-04-22 23:53:36,090] [INFO] [src.transformation.data_transformation] : Transforming test data
+[2026-04-22 23:53:36,147] [INFO] [src.transformation.data_transformation] : Test data transformed
+[2026-04-22 23:53:36,180] [INFO] [src.transformation.data_transformation] : Preprocessor saved at artifacts/preprocessor.pkl
+[2026-04-22 23:53:36,180] [INFO] [src.transformation.data_transformation] : Data transformation completed

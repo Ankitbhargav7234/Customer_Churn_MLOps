@@ -1,0 +1,2 @@
+[2026-05-01 21:29:07,288] [INFO] [api.routes.predict] : Initializing PredictionService in API route
+[2026-05-01 21:30:30,500] [INFO] [api.routes.predict] : Received prediction request

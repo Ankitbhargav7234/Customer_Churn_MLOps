@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: customer-churn-mlops-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: customer-churn-mlops
+  template:
+    metadata:
+      labels:
+        app: customer-churn-mlops
+    spec:
+      containers:
+      - name: customer-churn-mlops-container
+        image: ankit7234/customer-churn-mlops:latest
+        ports:
+        - containerPort: 8000
+
+        env:
+        - name: MODEL_PATH
+          value: "artifacts/model.pkl"
+        - name: PREPROCESSOR_PATH
+          value: "artifacts/preprocessor.pkl"
+
+        resources:
+          requests:
+            cpu: "250m"
+            memory: "256Mi"
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 20

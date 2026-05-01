@@ -1,0 +1,11 @@
+[2026-04-24 00:11:04,686] [INFO] [src.ingestion.data_ingestion] : DataIngestion initialized with config
+[2026-04-24 00:11:04,688] [INFO] [src.ingestion.data_ingestion] : Starting data ingestion process
+[2026-04-24 00:11:04,688] [INFO] [src.ingestion.data_ingestion] : Directories created successfully
+[2026-04-24 00:11:04,691] [INFO] [src.ingestion.data_ingestion] : Loading data from data/customer_churn.csv
+[2026-04-24 00:11:04,902] [INFO] [src.ingestion.data_ingestion] : Data loaded successfully with shape (7043, 21)
+[2026-04-24 00:11:05,226] [INFO] [src.ingestion.data_ingestion] : Data saved at artifacts/raw.csv
+[2026-04-24 00:11:05,227] [INFO] [src.ingestion.data_ingestion] : Splitting data into train and test
+[2026-04-24 00:11:05,390] [INFO] [src.ingestion.data_ingestion] : Train shape: (5634, 21), Test shape: (1409, 21)
+[2026-04-24 00:11:05,474] [INFO] [src.ingestion.data_ingestion] : Data saved at artifacts/train.csv
+[2026-04-24 00:11:05,492] [INFO] [src.ingestion.data_ingestion] : Data saved at artifacts/test.csv
+[2026-04-24 00:11:05,494] [INFO] [src.ingestion.data_ingestion] : Data ingestion completed successfully

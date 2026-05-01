@@ -1,0 +1,7 @@
+columns:
+  - gender
+  - SeniorCitizen
+  - tenure
+  - MonthlyCharges
+  - TotalCharges
+  - Churn

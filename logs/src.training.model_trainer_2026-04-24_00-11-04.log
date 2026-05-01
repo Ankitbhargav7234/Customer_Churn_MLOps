@@ -1,0 +1,14 @@
+[2026-04-24 00:12:24,151] [INFO] [src.training.model_trainer] : ModelTrainer initialized with MLflow
+[2026-04-24 00:12:24,152] [INFO] [src.training.model_trainer] : Starting model training
+[2026-04-24 00:12:24,155] [INFO] [src.training.model_trainer] : Training model: logistic_regression
+[2026-04-24 00:13:21,790] [INFO] [src.training.model_trainer] : logistic_regression | C=0.1 | ROC-AUC=0.8611940646122951
+[2026-04-24 00:13:32,769] [INFO] [src.training.model_trainer] : logistic_regression | C=1 | ROC-AUC=0.8612432328920265
+[2026-04-24 00:13:43,015] [INFO] [src.training.model_trainer] : logistic_regression | C=10 | ROC-AUC=0.8584691067935035
+[2026-04-24 00:13:43,153] [INFO] [src.training.model_trainer] : Training model: random_forest
+[2026-04-24 00:14:14,189] [INFO] [src.training.model_trainer] : random_forest | n_estimators=100 | ROC-AUC=0.8444975519372302
+[2026-04-24 00:15:00,789] [INFO] [src.training.model_trainer] : random_forest | n_estimators=200 | ROC-AUC=0.845840622315153
+[2026-04-24 00:15:12,083] [INFO] [src.training.model_trainer] : random_forest | max_depth=5 | ROC-AUC=0.8375544732783339
+[2026-04-24 00:15:23,089] [INFO] [src.training.model_trainer] : random_forest | max_depth=10 | ROC-AUC=0.8434805448880516
+[2026-04-24 00:15:23,253] [INFO] [src.training.model_trainer] : Best model: logistic_regression with score 0.8612432328920265
+[2026-04-24 00:15:23,272] [INFO] [src.training.model_trainer] : Model saved at artifacts/model.pkl
+[2026-04-24 00:15:23,273] [INFO] [src.training.model_trainer] : Model training completed
