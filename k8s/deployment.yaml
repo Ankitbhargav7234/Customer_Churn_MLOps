@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: customer-churn-mlops-container
-        image: ankit7234/customer-churn-mlops:latest
+        image: ankit7234/customer_churn_mlops:latest
         ports:
         - containerPort: 8000
 
