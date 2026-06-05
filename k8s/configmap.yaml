@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: customer-churn-mlops-config
+data:
+  MODEL_PATH: "artifacts/model.pkl"
+  PREPROCESSOR_PATH: "artifacts/preprocessor.pkl"

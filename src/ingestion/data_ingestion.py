@@ -1,6 +1,4 @@
 #Imports + Setup
-import logging
-import logging
 import os
 import sys
 from venv import logger

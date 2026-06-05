@@ -21,7 +21,8 @@ class EDA:
 
         os.makedirs(self.config.output_dir, exist_ok=True)
         obj.basic_info(df)
-        obj.missing_values(df)
+        obj.missing_values(df, self.config.train_data_path)
+        obj.dropping_useless_columns(df)
         obj.plot_target_distribution(df, self.config.target_column, self.config.output_dir)
         obj.plot_numeric_distributions(df, self.config.output_dir)
         obj.plot_categorical_vs_target(df, self.config.target_column, self.config.output_dir)

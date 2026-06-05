@@ -38,7 +38,8 @@ def run_validation(train_path, test_path):
 def run_eda(train_path, test_path):
     config = EDAConfig(
         output_dir="artifacts/eda",
-        target_column="Churn"
+        target_column="Churn",
+        train_data_path=train_path
     )
 
     eda = EDA(config)
